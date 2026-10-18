@@ -1,0 +1,28 @@
+run,name,status,exit,duration,realtime,%cpu,peak_rss,cpus,memory,container_image
+long-hifi,ACCEPT_BAM (HG003),COMPLETED,0,422ms,155ms,51.7%,3.4 MB,8,32 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-hifi,PREPARE_REFERENCE,COMPLETED,0,7.7s,7.4s,98.5%,6.4 MB,1,4 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-hifi,DEEPVARIANT (HG003),COMPLETED,0,36.9s,36.5s,221.3%,6.4 GB,8,32 GB,google-deepvariant-1.10.0.img
+long-hifi,ALIGNMENT_QC (HG003),COMPLETED,0,852ms,559ms,107.9%,25 MB,8,32 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-hifi,MOSDEPTH (HG003),COMPLETED,0,1.5s,1.2s,98.9%,52.2 MB,8,32 GB,community.wave.seqera.io-library-htslib_mosdepth_gzip-4108dd38be84e40a.img
+long-hifi,SNIFFLES (HG003),COMPLETED,0,3.2s,3s,682.6%,268.9 MB,8,32 GB,community.wave.seqera.io-library-htslib_sniffles-14a95caca8d8452b.img
+long-hifi,NANOPLOT (HG003),COMPLETED,0,6.8s,6s,345.0%,437 MB,8,32 GB,quay.io-biocontainers-nanoplot-1.47.0--pyhdfd78af_0.img
+long-hifi,PHASE (HG003),COMPLETED,0,3.6s,3.3s,85.9%,179.7 MB,8,32 GB,community.wave.seqera.io-library-whatshap-2.8--7fe530bc624a3e5a.img
+long-hifi,INDEX_PHASED (HG003),COMPLETED,0,322ms,50ms,129.0%,3.4 MB,8,32 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-hifi-fastq,PREPARE_REFERENCE,COMPLETED,0,7.8s,7.5s,98.7%,14.9 MB,1,4 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-hifi-fastq,ALIGN_FASTQ (HG003),COMPLETED,0,43.5s,43.2s,171.4%,11.9 GB,8,32 GB,community.wave.seqera.io-library-minimap2_samtools-b09096fc890429ce.img
+long-hifi-fastq,SNIFFLES (HG003),COMPLETED,0,3.2s,2.9s,689.9%,268.8 MB,8,32 GB,community.wave.seqera.io-library-htslib_sniffles-14a95caca8d8452b.img
+long-hifi-fastq,NANOPLOT (HG003),COMPLETED,0,6.6s,6s,356.7%,1.1 GB,8,32 GB,quay.io-biocontainers-nanoplot-1.47.0--pyhdfd78af_0.img
+long-hifi-fastq,ALIGNMENT_QC (HG003),COMPLETED,0,612ms,327ms,118.2%,25.3 MB,8,32 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-hifi-fastq,MOSDEPTH (HG003),COMPLETED,0,3.3s,3s,101.4%,1 GB,8,32 GB,community.wave.seqera.io-library-htslib_mosdepth_gzip-4108dd38be84e40a.img
+long-hifi-fastq,DEEPVARIANT (HG003),COMPLETED,0,35.9s,35.4s,215.1%,6.4 GB,8,32 GB,google-deepvariant-1.10.0.img
+long-hifi-fastq,PHASE (HG003),COMPLETED,0,4.3s,3.9s,85.6%,306.5 MB,8,32 GB,community.wave.seqera.io-library-whatshap-2.8--7fe530bc624a3e5a.img
+long-hifi-fastq,INDEX_PHASED (HG003),COMPLETED,0,324ms,55ms,107.4%,3.3 MB,8,32 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-ont,ACCEPT_BAM (HG003),COMPLETED,0,439ms,178ms,111.9%,3.2 MB,8,32 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-ont,PREPARE_REFERENCE,COMPLETED,0,7.8s,7.6s,97.9%,6.4 MB,1,4 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-ont,NANOPLOT (HG003),COMPLETED,0,8.2s,8s,304.2%,1.2 GB,8,32 GB,quay.io-biocontainers-nanoplot-1.47.0--pyhdfd78af_0.img
+long-ont,ALIGNMENT_QC (HG003),COMPLETED,0,2.1s,1.8s,118.0%,391.9 MB,8,32 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img
+long-ont,SNIFFLES (HG003),COMPLETED,0,3.6s,3.4s,622.2%,269.7 MB,8,32 GB,community.wave.seqera.io-library-htslib_sniffles-14a95caca8d8452b.img
+long-ont,MOSDEPTH (HG003),COMPLETED,0,3.4s,3s,99.7%,277.3 MB,8,32 GB,community.wave.seqera.io-library-htslib_mosdepth_gzip-4108dd38be84e40a.img
+long-ont,CLAIR3 (HG003),COMPLETED,0,23.4s,23.1s,200.3%,1.4 GB,8,32 GB,hkubal-clair3-v2.0.2.img
+long-ont,PHASE (HG003),COMPLETED,0,5.6s,5.3s,90.3%,178.9 MB,8,32 GB,community.wave.seqera.io-library-whatshap-2.8--7fe530bc624a3e5a.img
+long-ont,INDEX_PHASED (HG003),COMPLETED,0,349ms,71ms,218.2%,3.3 MB,8,32 GB,community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img

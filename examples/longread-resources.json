@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "genome_build": "GRCh38",
+  "reference_fasta": "/resources/GRCh38/GRCh38_no_alt_analysis_set.fasta",
+  "reference_sha256": "REPLACE_WITH_SHA256_OF_YOUR_EXACT_UNCOMPRESSED_FASTA"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "scope": "Public HG003 interval integration only; custom ClinVar and gnomAD files restricted to chr20 test intervals; full Ensembl116 cache used.",
+  "vep_version": "116.0",
+  "cache_manifest_sha256": "5ad5c9d0ab05e237ec488aa69c8ee8870ac41ddd3c59890d9a06d3ce6c1ba649",
+  "reference_sha256": "9cce8b926416dd96b152deea85188495b75f7ac8d634cc723a017067be8702b7",
+  "clinvar_version": "2026-10-11",
+  "clinvar_sha256": "586184624889a6c9d837ecb8e108d966d5c2e7ce802d01020aa9132d3bac0508",
+  "gnomad_version": "4.1-genomes",
+  "gnomad_sha256": "f5a7b104f4cd8c10cd53a943cc57a1985bd36ea0b72c13bc73b62b1fe1667560",
+  "elapsed_seconds": 16.99777887389064,
+  "outputs": [
+    {
+      "sample": "HG003",
+      "label": "hifi_deepvariant",
+      "variant_type": "small",
+      "variants": 618,
+      "transcript_consequences": 13272,
+      "clinvar_status": {
+        "no_match": 13206,
+        "matched": 66
+      },
+      "gnomad_status": {
+        "matched": 12516,
+        "no_match": 756
+      },
+      "with_hgvsc": 11774,
+      "with_hgvsp": 18,
+      "with_mane_select": 72,
+      "vcf_sha256": "f1c6fb09eb3b990cd89c6ec3336704b697fb232dccc76845bcd33be7624ee44e",
+      "tsv_sha256": "74a4aaa188a14985b0f643e0c8578d980906870f030764ffbc66f6d72d7b4561"
+    },
+    {
+      "sample": "HG003",
+      "label": "hifi_sniffles2",
+      "variant_type": "sv",
+      "variants": 2,
+      "transcript_consequences": 44,
+      "clinvar_status": {
+        "not_applicable_small_variant_resource": 44
+      },
+      "gnomad_status": {
+        "not_applicable_small_variant_resource": 44
+      },
+      "with_hgvsc": 44,
+      "with_hgvsp": 0,
+      "with_mane_select": 0,
+      "vcf_sha256": "839d6676753bd56dca26ab541cf6430a8b5cb6d2e00d9fae8944e4db856c9345",
+      "tsv_sha256": "4b6203eb4450be9de004414822e4a9d0be7f18b21f6c735762fcb1f27a8e8fe0"
+    },
+    {
+      "sample": "HG003",
+      "label": "ont_clair3",
+      "variant_type": "small",
+      "variants": 561,
+      "transcript_consequences": 1010,
+      "clinvar_status": {
+        "no_match": 996,
+        "matched": 14
+      },
+      "gnomad_status": {
+        "matched": 1000,
+        "no_match": 10
+      },
+      "with_hgvsc": 465,
+      "with_hgvsp": 26,
+      "with_mane_select": 343,
+      "vcf_sha256": "b0d9b6f2087f247c3545802a948193ba2a76dd3bac2c40687a7fafc548d4824c",
+      "tsv_sha256": "b5222da9d5fb6ef7ad7debd7e7fac973288e830b56f95ce8d03c77144ee00927"
+    },
+    {
+      "sample": "HG003",
+      "label": "ont_sniffles2",
+      "variant_type": "sv",
+      "variants": 3,
+      "transcript_consequences": 12,
+      "clinvar_status": {
+        "not_applicable_small_variant_resource": 12
+      },
+      "gnomad_status": {
+        "not_applicable_small_variant_resource": 12
+      },
+      "with_hgvsc": 10,
+      "with_hgvsp": 0,
+      "with_mane_select": 3,
+      "vcf_sha256": "daa529d9979a2193bf068f00735bbf23c3bbf7e227f4e2ac41c4fe260a377b36",
+      "tsv_sha256": "ee2adc6b3352b80ac071f307eb0f377b273ff9b7fdf3b9ee301096288961ff95"
+    }
+  ]
+}

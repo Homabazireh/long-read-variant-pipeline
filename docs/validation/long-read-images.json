@@ -1,0 +1,46 @@
+{
+  "format": "Apptainer SIF",
+  "scope": "Exact image artifacts used in measured regional executions; SIF digests are not OCI manifest digests. Images are stored outside Git.",
+  "images": [
+    {
+      "image_file": "community.wave.seqera.io-library-htslib_mosdepth_gzip-4108dd38be84e40a.img",
+      "sif_sha256": "0d736690146d43d03491e60c2d0677a92113d02151ccc0de989f78e8bc685497",
+      "bytes": 69799936
+    },
+    {
+      "image_file": "community.wave.seqera.io-library-htslib_samtools-1.24--d697cfb9dce007cd.img",
+      "sif_sha256": "609555209ea05612470c0b8e8a4b1df95af291bd5ad40872eeba1a8e5d5052b1",
+      "bytes": 81596416
+    },
+    {
+      "image_file": "community.wave.seqera.io-library-htslib_sniffles-14a95caca8d8452b.img",
+      "sif_sha256": "30db4d73056d9558be0b444d103b932bad420c0c005188efd7a29a5f5f536bc6",
+      "bytes": 162664448
+    },
+    {
+      "image_file": "community.wave.seqera.io-library-minimap2_samtools-b09096fc890429ce.img",
+      "sif_sha256": "a195b826844cc34b116069513368edcc54314233e93be78b95d2433178096900",
+      "bytes": 146468864
+    },
+    {
+      "image_file": "community.wave.seqera.io-library-whatshap-2.8--7fe530bc624a3e5a.img",
+      "sif_sha256": "4dc46cddf0659d8233c070748cd4d8d55916a80aa0fe288ba08ef8d378efd85c",
+      "bytes": 230825984
+    },
+    {
+      "image_file": "google-deepvariant-1.10.0.img",
+      "sif_sha256": "de65f5344f0444e52b1e135132cfbb489142c3a069f8e11a16652b8e4ee5cbf1",
+      "bytes": 1970753536
+    },
+    {
+      "image_file": "hkubal-clair3-v2.0.2.img",
+      "sif_sha256": "cd562772ede438c25f4068edea6ae01f9a7fbed4fce941c6629a4e1f601ed2ea",
+      "bytes": 1276440576
+    },
+    {
+      "image_file": "quay.io-biocontainers-nanoplot-1.47.0--pyhdfd78af_0.img",
+      "sif_sha256": "5590c4def4eaf68da8f1326bf57e19adb05089853e5e834568090d5f9b0ea00c",
+      "bytes": 262590464
+    }
+  ]
+}
